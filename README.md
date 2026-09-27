@@ -128,7 +128,6 @@ The source ownership, grain, retrieval modes, lifecycle states, relational model
 
 - Metric output and Known / Unknown / Assumption / Limitation evidence: [evidence/metrics-evidence.md](evidence/metrics-evidence.md)
 - Full 2024 monthly KPI summary (one row per month): [evidence/annual-2024-monthly-summary.csv](evidence/annual-2024-monthly-summary.csv)
-- 3-5 minute demo talk track: [docs/demo-script.md](docs/demo-script.md)
 - Automated test: [tests/test_pipeline.py](tests/test_pipeline.py)
 
 The metric evidence file intentionally has no fabricated results. Populate it from a real run; the pipeline writes the results to `data/processed/metrics_summary_YYYY-MM.csv`.
