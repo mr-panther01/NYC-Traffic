@@ -17,6 +17,9 @@ coverage.xml
 # Jupyter runtime state
 .ipynb_checkpoints/
 
+# Documentation drafts
+docs/
+
 # Pipeline runtime and temporary files
 *.log
 *.part
