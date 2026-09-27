@@ -1,12 +1,26 @@
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-data/quarantine/*
-!data/quarantine/.gitkeep
+# Local Python environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Jupyter runtime state
+.ipynb_checkpoints/
+
+# Pipeline runtime and temporary files
 *.log
 *.part
-__pycache__/
-.pytest_cache/
-.venv/
-.venv312/
+
+# Operating system files
+.DS_Store
+Thumbs.db
