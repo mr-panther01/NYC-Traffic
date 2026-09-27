@@ -21,6 +21,7 @@ coverage.xml
 docs/
 
 # Pipeline runtime and temporary files
+data/
 *.log
 *.part
 
