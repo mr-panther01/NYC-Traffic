@@ -1,0 +1,12 @@
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/quarantine/*
+!data/quarantine/.gitkeep
+*.log
+*.part
+__pycache__/
+.pytest_cache/
+.venv/
+.venv312/
